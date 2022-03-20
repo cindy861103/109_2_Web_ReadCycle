@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>會員管理2</title>
+    <link rel="stylesheet" href="css/Manage_Member2_style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<script type='text/javascript' src='../home.js'></script>
+</head>
+<body>
+	<div class="header">
+		<div class="logo" src="">Readcycle</div>
+		<div class="search">
+			<input class="search-bar" type="text" name="search" id="search" placeholder="搜尋">
+			<button class="search-btn"><i class="fas fa-search"></i></button>
+		</div>
+			<div class="publish">刊登</div>
+			<div class="request">徵求</div>
+			<div class="notification">
+			    <div class="popover__title">
+		    	    <i class="fas fa-bell"></i>
+		        </div>
+		        <div class="popover__content">
+		    	    <p class="popover__message">通知</p>
+		        </div>
+		    </div>
+			<div class="member"><i class="fas fa-user"></i></div>
+			<div class="cart">
+				<div class="popover__title">
+					<i class="fas fa-shopping-cart"></i>
+		        </div>
+		        <div class="popover__content">
+		    	    <p class="popover__message">購物車</p>
+		        </div>
+		    </div>
+	</div>
+	<div class="left">
+		<p>書籍管理<br></p>
+		<a href=Manage_Sale1.html>刊登管理</a><br>
+		<a href="Manage_Require.html">徵求管理</a><br>
+		<a href="Manage_Member1.html">會員管理</a><br>
+		<a href="Manage_Order.html">訂單查詢</a><br>
+		<br>
+		    書適圈 Readcycle<br>
+		    <p>
+			<a href="">常見問題<br></a>
+		    <a href="">創辦理念<br></a>
+			<a href="">商業合作<br></a>
+			<a href="">聯絡我們<br></a>
+		    <p>
+    </div>
+
+    <!--以上為頁面邊框-->
+
+    <div>
+        <p class="membersetting">會員管理</p>
+        <br><br><br><br><br>
+        <hr style="border: 1px solid#005889;" align="left" noshade>
+    </div>
+    <div class="image">
+        <img src="member_image_removebg.png" width="30%" >
+    </div>
+    <div class="memberentry">
+        <form action="uploadsetting2.php">
+            <p><input type="text" name="Id" class="text_field" placeholder="輸入學號"/></p>
+            <p><select name="Dept" id="" class="select_field">
+                <option value="">選擇科系</option>
+                <option value="">中文系</option>
+                <option value="">歷史系</option>
+                <option value="">哲學系</option>
+                <option value="">政治系</option>
+                <option value="">社會系</option>
+                <option value="">社工系</option>
+                <option value="">音樂系</option>
+                <option value="">英文系</option>
+                <option value="">日文系</option>
+                <option value="">德文系</option>
+                <option value="">法律系</option>
+                <option value="">巨資系</option>
+                <option value="">數學系</option>
+                <option value="">物理系</option>
+                <option value="">化學系</option>
+                <option value="">微物系</option>
+                <option value="">心理系</option>
+                <option value="">經濟系</option>
+                <option value="">會計系</option>
+                <option value="">企管系</option>
+                <option value="">國貿系</option>
+                <option value="">財精系</option>
+                <option value="">資管系</option>
+            </select></p>
+            <p><input type="text" name="Writer" class="text_field" placeholder="輸入姓名"/></p>
+            <p><select name="" id="" class="select_field">
+                <option value="">選擇性別</option>
+                <option value="">男性</option>
+                <option value="">女性</option>
+            </select></p>
+            <p><input type="text" name="Mail" class="text_field" placeholder="輸入常用信箱"/></p>
+            <p><input type="text" name="Phone" class="text_field" placeholder="輸入手機號碼"/></p>
+        </form>
+    </div>
+    <div>
+        <a class="confirm" href="Manage_Member1.html">確認修改</a>
+    </div>

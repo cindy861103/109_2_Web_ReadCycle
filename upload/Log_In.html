@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+<meta charset="UTF-8">
+<title>登入</title>
+<link rel="stylesheet" type="text/css" href="css/Log_In_style.css"/>
+<script type="text/javascript" src="../html/Log_In.html"></script>
+</head>
+<body>
+    <div id="login_frame">
+        <p id="text_logo">登入</p>
+        <form method="post" action="login.php">
+            <p><input type="text" id="username" class="text_field" placeholder="輸入學號"/></p>
+            <p><input type="text" id="password" class="text_field" placeholder="輸入密碼"/></p>
+            <p><input type="text" id="captcha" class="text_field" placeholder="輸入驗證碼"/></p>
+            <div>
+                <div id="forget_pwd"><a  id="forget_pwd_href" href="Forget_Pwd.html">忘記密碼？</a></div>
+                <div id="signup_control"><a href="../html/Register.html">註冊成為會員</a></div>
+                <div id="login_control"><button id="login_button" type="submit" href="../html/Log_In.html">登入</button></div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    background: rgba(118, 112, 112, 0.5);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#register_frame {
+    width: 40%;
+    height: 95%;
+    margin-top: 10%;
+    margin-left: 30%;
+    background-color: #F8FCFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form p > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#text_logo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    padding-top: 5%;
+    color: #005889;
+}
+
+.text_field {
+    width: 60%;
+    height: 30px;
+    border: 0;
+    background-color: #E5E5E5;
+    color: #696464;
+    font-size: 18px;
+}
+
+.select_field {
+    width: 60%;
+    height: 30px;
+    border: 0;
+    background-color: #E5E5E5;
+    color: #696464;
+    font-size: 18px;
+}
+
+#signup_control {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1%;
+    position: relative; width: 19%; height: 5%; left: 57%; top: 35px;
+    font-size: 20px;
+    background: #0671AC;
+    color: #F8FCFF;
+}
+
+button {
+    display: #F8FCFF;
+    border: none;
+}
+
+#login_control{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1%;
+    position: relative; width: 23%; left: 24%; top: -1px;
+    color: #5A659C;
+    font-size: 20px;
+}
+
+#login_control:hover {
+    color:blue;
+    text-decoration: underline;
+}
+
+#register_done_frame {
+    width: 40%;
+    height: 40%;
+    margin-top: 10%;
+    margin-left: 30%;
+    background-color: #F8FCFF;
+    border-radius: 10px;
+    text-align: center;
+}
