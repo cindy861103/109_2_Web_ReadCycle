@@ -1,0 +1,121 @@
+body{
+    background: rgba(118, 112, 112, 0.5);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+button {
+    display: #F8FCFF;
+    border: none;
+}
+
+#login_frame {
+    width: 40%;
+    height: 380px;
+    margin-top: 20%;
+    margin-left: 30%;
+    background-color: #F8FCFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form p > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#text_logo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    padding-top: 5%;
+    color: #005889;
+}
+
+.text_field {
+    font-size: 18px;
+    width: 60%;
+    height: 30px;
+    border: 0;
+    background-color: #E5E5E5;
+    color: #696464;
+}
+
+#signup_control {
+    font-size: 20px;
+    color: #5A659C;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative; width: 22%; left: 150px; top: 90px;
+}
+
+#signup_control:hover {
+    color:blue;
+}
+
+#login_control {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1%;
+    position: relative; left: 340px; top: 55px; width: 9.5%; height: 5%;
+    background: #0671AC;
+    color: #F8FCFF;
+}
+
+#login_control:link {
+    display: #F8FCFF;
+    text-decoration: none;
+}
+
+#login_control:hover {
+    display: #F8FCFF;
+}
+
+#login_control:visited {
+    display: #F8FCFF;
+}
+
+#login_control:active {
+    display: #F8FCFF;
+}
+
+#forget_pwd {
+    font-size: 20px;
+    color: #5A659C;
+    text-decoration: none;
+    position: relative; top: 50px; left: -63%; right: 50%;
+    float: right;
+    text-decoration: underline;
+}
+
+#forget_pwd:hover {
+    color: blue;
+}
+
+.home {
+    position: absolute; top: 30%; left: 41.5%;
+    width: 17%;
+    background-color: #005889;
+    color: #F8FCFF;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.home a {
+    color: #F8FCFF;
+    text-decoration: none;
+}
+
+.home a:hover {
+    font-weight: bold;
+}
+
+.home a:visited {
+    color: #F8FCFF;
+}

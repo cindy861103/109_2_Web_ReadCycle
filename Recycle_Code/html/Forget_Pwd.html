@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>忘記密碼</title>
+<link rel="stylesheet" type="text/css" href="../css/Forget_Pwd_style.css"/>
+<script type="text/javascript" src="Forget_Pwd.js"></script>
+</head>
+<body>
+    <div id="forget_pwd_frame">
+        <p id="text_logo">忘記密碼</p>
+        請輸入學號，系統將自動寄送密碼到您註冊時的常用信箱<br>
+        <u>信件主旨：Readcycle書適圈會員密碼通知函</u>
+        <form method="post" action="../php/Forget_Pwd.php">
+            <p><input name="username" type="text" id="username" class="text_field" placeholder="輸入學號"></p>
+            <!-- <p><input type="text" id="" class="text_field" placeholder="輸入驗證碼"></p> -->
+            <div>
+                <!-- <a href id="send_control">確認送出</a> -->
+                <button name="Send" type="submit" id="send_control" href="../php/Forget_Pwd.php">確認送出</button>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
