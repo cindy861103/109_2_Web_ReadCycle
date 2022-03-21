@@ -69,5 +69,5 @@
 > |[PPT](./report/Readcycle(書適圈)_期末簡報.pdf)|書適圈(ReadCycle)的期末專題簡報|
 > |[專案企劃書](./report/Readcycle(書適圈)_期末企畫書_final.pdf)|書適圈(ReadCycle)的期末專題完整企畫書【書面報告】| 
 > |[Figma](https://reurl.cc/Ep5KbK)|初步設計的ReadCycle頁面後才據此刻出網頁並加以修改調整| 
-> |[網頁Demo](https://youtu.be/bHd_7tuHBwI)|完整使用書適圈(ReadCycle)平臺服務的示範(Demo)影片|
+> |[網頁Demo](https://youtu.be/62YG-Hl58vc)|完整使用書適圈(ReadCycle)平臺服務的示範(Demo)影片|
 > |[期末專題匯報](https://youtu.be/Cd6E2e_7ho0?t=8193)|2021/06/30 期末專題線上匯報影片【起：2:16:33 ~ 迄：2:40:39】|
