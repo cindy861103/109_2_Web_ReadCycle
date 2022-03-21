@@ -39,9 +39,9 @@
 > 
 > * 介面設計流程架構圖：  
 > <img src="./picture/ReadCycle_頁面流程與架構.png" width = "80%" height = "80%" alt="Readcycle_Process" align=center /><br>  
-> 以網頁功能頁面作為分類，分為以下七大主要項目：  
+> 以網頁功能頁面作為分類，分為以下七大主要項目：<br>  
 > <img src="./picture/Readcycle(書適圈)_Cover.png" width = "80%" height = "80%" alt="Readcycle_Cover" align=center /><br>   
->   * **首頁**：ReadCycle入口的主要頁面。  >  
+>   * **首頁**：ReadCycle入口的主要頁面(上圖)。 
 >   * **註冊/登入**：使用者的註冊以及登入頁面。
 >   * **刊登**：賣家想要賣書時需使用刊登將自己的書於平臺上架。
 >   * **徵求**：買家想要買書時需使用徵求將自己的需求用書於平臺張貼資訊。
